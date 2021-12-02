@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treviettravel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  <header>
+    <div class="container p-0" >
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> 
+              <img src="img/logo.jpeg" alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="me-auto"></div>
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TOURS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#noidia">NỘI ĐỊA</a></li>
+                  <li><a class="dropdown-item" href="#">QUỐC TẾ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  HOTEL
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">RESORT</a></li>
+                  <li><a class="dropdown-item" href="#">5 SAO</a></li>
+                  <li><a class="dropdown-item" href="#">4 SAO</a></li>
+                  <li><a class="dropdown-item" href="#">3 SAO</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="banner container-fluid">
+      <form class="booking" action="" method="">
+        <div class="row list" id="list-lg">
+          <div class="col-xl col-lg"></div>
+          <div class="col-xl-2 col-lg-2 itemBox">
+            <div class="destinations item row">
+              <div class="col-12"><p>Điểm đến</p></div>
+              <div class="col-12">
+                <select>
+                  <option value="" selected disabled hidden>Chọn điểm đến</option>
+                  <option>Hà Nội</option>
+                  <option>Đà Nẵng</option>
+                  <option>Nha Trang</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 itemBox">
+            <div class="checkin item row">
+              <div class="col-12"><p>check-in</p></div>
+              <div class="col-12">
+                <input value="1/1/2020" type="text" id="date-check-out" data-select="datepicker" autocomplete="off" name="date">
+                <i class="far fa-calendar-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 itemBox">
+            <div class="checkout item row">
+              <div class="col-12"><p>check-out</p></div>
+              <div class="col-12">
+                <input value="22/5/2020" type="text" id="date-check-out" data-select="datepicker" autocomplete="off" name="date">
+                <i class="far fa-calendar-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 itemBox">
+            <div class="travelType item row">
+              <div class="col-12"><p>lựa chọn</p></div>
+              <div class="col-12">
+                <select>
+                  <option value="" selected disabled hidden>Chọn phòng</option>
+                  <option>Villa</option>
+                  <option>Phòng Deluxe </option>
+                  <option>Phòng Junior Suite</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 itemBox">
+            <div class="item row">
+              <div class="col-12"><p style="color: transparent; user-select: none;">Tìm kiếm</p></div>
+              <div class="col-12">
+                <input type="submit" name="" value="Tìm kiếm" class="findBtn">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl col-lg"></div>
+        </div>
+      </form>
+    </div>
+    <div class="container-fluid">
+      <section class="tilesSection bento">
+        <h2>RESORT NỔI TIẾNG VIỆT NAM</h2>
+        <div class="col-md-12">
+          <div class=" row">
+            <div class="item col-md-3 ">
+              <div class="tileBG"><img src="img/ana-mandara-villas-dalat-resort-amp-spa-644996.jpg" alt=""></div>
+              <div>
+                  <h4 class="tile text-center">Đà Lạt</h4>
+              </div>
+            </div>
+            <div class="item col-md-3">
+              <div class="tileBG"><img src="img/angsana-lang-co-574893huế.jpg" alt=""></div>
+              <div>
+                <h4 class="tile text-center">Lăng Cô-Huế</h4>
+              </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/flc-quy-nhon-beach-amp-golf-resort-644991.jpg" alt=""></div>
+              <div>
+                <h4 class="tile text-center">Quy Nhơn</h4>
+              </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/jw-marriott-phu-quoc-emerald-bay-resort-amp-spa-644998.jpg" alt=""></div>
+              <div>
+                <h4 class="tile text-center">Phú Quốc</h4>
+              </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/six-senses-ninh-van-bay-645002.jpg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">SIX- SENSES Ninh Vân Bay</h4>
+                </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/the-nam-hai-resort-137814hội an.jpg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Hội An</h4>
+                </div>
+            </div>
+            <div class="item col-md-3">
+              <div class="tileBG"><img src="img/topas-ecolodge-644988sapa.jpg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Sa Pa</h4>
+                </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/flamingo-dai-lai-resort-135510.jpg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Đại Lải</h4>
+                </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/côn đảo.jpeg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Côn Đảo</h4>
+                </div>
+            </div>
+            <div class="item col-md-3">
+              <div class="tileBG"><img src="img/mũi né.jpeg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Mũi Né</h4>
+                </div>
+            </div>
+            <div  class="item col-md-3">
+              <div class="tileBG"><img src="img/amanoi-resort-137808.jpg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Amanoi-Hội An</h4>
+                </div>
+            </div>
+            <div class="item col-md-3">
+              <div class="tileBG"><img src="img/hyatt-regency-danang-137806.jpg" alt=""></div>
+                <div class="tileTexts">
+                  <h4 class="tile text-center">Hyatt-Đà Nẵng</h4>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer id="footer">
+    <div class="container p-0">
+      <div class="row">
+          <div class="col-md-4 col-sm-5">
+              <h4 class="text-light">About us</h4>
+              <p>Công ty Lữ Hành Tre Việt</p>
+              <p><i class="fa fa-phone-square"></i>  (+84) 123 456 789 <i class="fa fa-mobile-alt"></i>  (+84) 987 654 321</p>
+              <p><i class="fa fa-envelope"></i> info@treviettravel.vn</p>
+              <p><i class="fa fa-address-book"></i> 4th floor, 28 Pham Hung, Nam Tu Liem, Hanoi</p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            
+          </div>
+          <div class="col-md-4 col-sm-12 pl-10">
+              <h4 class="text-light">Follow us</h4>
+              <p>Company info</p>
+              <div class=" column text-light">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-youtube"></i>
+              </div>
+          </div>
+          <div class=" text-center">
+            <p>Copyright © Webtravel.vn All Rights Reserved</p>
+          </div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>
