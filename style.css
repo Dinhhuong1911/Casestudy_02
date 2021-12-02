@@ -53,7 +53,7 @@ body {
     margin: auto;
 }
 .single-service {
-    flex-basis: 48%;
+    /* flex-basis: 48%; */
     text-align: center;
     border-radius: 7px;
     margin-bottom: 20px;
@@ -66,7 +66,7 @@ body {
     border-radius: 7px;
 }
 .overlay {
-    width: 100%;
+    width: 95%;
     height: 100%;
     position: absolute;
     top: 0;
